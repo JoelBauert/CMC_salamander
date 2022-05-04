@@ -1,0 +1,659 @@
+sdf: salamandra_robotica.sdf
+spawn:
+  loader: 0
+  pose:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  velocity:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+morphology:
+  links:
+  - name: link_body_0
+    collisions: true
+    friction:
+    - 0.2
+    - 0
+    - 0
+    extras:
+      restitution: 0
+      linearDamping: 0
+      angularDamping: 0
+    density: 800.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -5.0
+      - -5.0
+    - - -0.001
+      - -0.001
+      - -0.001
+  - name: link_body_1
+    collisions: true
+    friction:
+    - 0.2
+    - 0
+    - 0
+    extras:
+      restitution: 0
+      linearDamping: 0
+      angularDamping: 0
+    density: 800.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -5.0
+      - -5.0
+    - - -0.001
+      - -0.001
+      - -0.001
+  - name: link_body_2
+    collisions: true
+    friction:
+    - 0.2
+    - 0
+    - 0
+    extras:
+      restitution: 0
+      linearDamping: 0
+      angularDamping: 0
+    density: 800.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -5.0
+      - -5.0
+    - - -0.001
+      - -0.001
+      - -0.001
+  - name: link_body_3
+    collisions: true
+    friction:
+    - 0.2
+    - 0
+    - 0
+    extras:
+      restitution: 0
+      linearDamping: 0
+      angularDamping: 0
+    density: 800.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -5.0
+      - -5.0
+    - - -0.001
+      - -0.001
+      - -0.001
+  - name: link_body_4
+    collisions: true
+    friction:
+    - 0.2
+    - 0
+    - 0
+    extras:
+      restitution: 0
+      linearDamping: 0
+      angularDamping: 0
+    density: 800.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -5.0
+      - -5.0
+    - - -0.001
+      - -0.001
+      - -0.001
+  - name: link_body_5
+    collisions: true
+    friction:
+    - 0.2
+    - 0
+    - 0
+    extras:
+      restitution: 0
+      linearDamping: 0
+      angularDamping: 0
+    density: 800.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -5.0
+      - -5.0
+    - - -0.001
+      - -0.001
+      - -0.001
+  - name: link_body_6
+    collisions: true
+    friction:
+    - 0.2
+    - 0
+    - 0
+    extras:
+      restitution: 0
+      linearDamping: 0
+      angularDamping: 0
+    density: 800.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -5.0
+      - -5.0
+    - - -0.001
+      - -0.001
+      - -0.001
+  - name: link_body_7
+    collisions: true
+    friction:
+    - 0.2
+    - 0
+    - 0
+    extras:
+      restitution: 0
+      linearDamping: 0
+      angularDamping: 0
+    density: 800.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -5.0
+      - -5.0
+    - - -0.001
+      - -0.001
+      - -0.001
+  - name: link_body_8
+    collisions: true
+    friction:
+    - 0.2
+    - 0
+    - 0
+    extras:
+      restitution: 0
+      linearDamping: 0
+      angularDamping: 0
+    density: 800.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -5.0
+      - -5.0
+    - - -0.001
+      - -0.001
+      - -0.001
+  - name: tail
+    collisions: true
+    friction:
+    - 0.2
+    - 0
+    - 0
+    extras:
+      restitution: 0
+      linearDamping: 0
+      angularDamping: 0
+    density: 800.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -5.0
+      - -5.0
+    - - -0.001
+      - -0.001
+      - -0.001
+  - name: link_leg_femur_0_L_0
+    collisions: true
+    friction:
+    - 0.2
+    - 0
+    - 0
+    extras:
+      restitution: 0
+      linearDamping: 0
+      angularDamping: 0
+    density: 800.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -0.1
+      - -0.1
+    - - -0.001
+      - -0.001
+      - -0.001
+  - name: link_leg_tibia_0_L_0
+    collisions: true
+    friction:
+    - 1.0
+    - 0
+    - 0
+    extras:
+      restitution: 0
+      linearDamping: 0
+      angularDamping: 0
+    density: 800.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -0.1
+      - -0.1
+    - - -0.001
+      - -0.001
+      - -0.001
+  - name: link_leg_femur_0_R_0
+    collisions: true
+    friction:
+    - 0.2
+    - 0
+    - 0
+    extras:
+      restitution: 0
+      linearDamping: 0
+      angularDamping: 0
+    density: 800.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -0.1
+      - -0.1
+    - - -0.001
+      - -0.001
+      - -0.001
+  - name: link_leg_tibia_0_R_0
+    collisions: true
+    friction:
+    - 1.0
+    - 0
+    - 0
+    extras:
+      restitution: 0
+      linearDamping: 0
+      angularDamping: 0
+    density: 800.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -0.1
+      - -0.1
+    - - -0.001
+      - -0.001
+      - -0.001
+  - name: link_leg_femur_1_L_0
+    collisions: true
+    friction:
+    - 0.2
+    - 0
+    - 0
+    extras:
+      restitution: 0
+      linearDamping: 0
+      angularDamping: 0
+    density: 800.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -0.1
+      - -0.1
+    - - -0.001
+      - -0.001
+      - -0.001
+  - name: link_leg_tibia_1_L_0
+    collisions: true
+    friction:
+    - 1.0
+    - 0
+    - 0
+    extras:
+      restitution: 0
+      linearDamping: 0
+      angularDamping: 0
+    density: 800.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -0.1
+      - -0.1
+    - - -0.001
+      - -0.001
+      - -0.001
+  - name: link_leg_femur_1_R_0
+    collisions: true
+    friction:
+    - 0.2
+    - 0
+    - 0
+    extras:
+      restitution: 0
+      linearDamping: 0
+      angularDamping: 0
+    density: 800.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -0.1
+      - -0.1
+    - - -0.001
+      - -0.001
+      - -0.001
+  - name: link_leg_tibia_1_R_0
+    collisions: true
+    friction:
+    - 1.0
+    - 0
+    - 0
+    extras:
+      restitution: 0
+      linearDamping: 0
+      angularDamping: 0
+    density: 800.0
+    swimming: true
+    drag_coefficients:
+    - - -0.1
+      - -0.1
+      - -0.1
+    - - -0.001
+      - -0.001
+      - -0.001
+  self_collisions: []
+  joints:
+  - name: joint_body_0
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 0
+    extras: {}
+  - name: joint_body_1
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 0
+    extras: {}
+  - name: joint_body_2
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 0
+    extras: {}
+  - name: joint_body_3
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 0
+    extras: {}
+  - name: joint_body_4
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 0
+    extras: {}
+  - name: joint_body_5
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 0
+    extras: {}
+  - name: joint_body_6
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 0
+    extras: {}
+  - name: joint_body_7
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 0
+    extras: {}
+  - name: joint_leg_tibia_0_L_0
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 0
+    extras: {}
+  - name: joint_leg_tibia_0_R_0
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 0
+    extras: {}
+  - name: joint_leg_tibia_1_L_0
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 0
+    extras: {}
+  - name: joint_leg_tibia_1_R_0
+    initial:
+    - 0
+    - 0
+    limits:
+    - - -.inf
+      - .inf
+    - - -.inf
+      - .inf
+    damping: 0
+    extras: {}
+  n_joints_body: 8
+  n_dof_legs: 1
+  n_legs: 4
+control:
+  sensors:
+    links:
+    - link_body_0
+    - link_body_1
+    - link_body_2
+    - link_body_3
+    - link_body_4
+    - link_body_5
+    - link_body_6
+    - link_body_7
+    - link_body_8
+    - tail
+    - link_leg_femur_0_L_0
+    - link_leg_tibia_0_L_0
+    - link_leg_femur_0_R_0
+    - link_leg_tibia_0_R_0
+    - link_leg_femur_1_L_0
+    - link_leg_tibia_1_L_0
+    - link_leg_femur_1_R_0
+    - link_leg_tibia_1_R_0
+    joints:
+    - joint_body_0
+    - joint_body_1
+    - joint_body_2
+    - joint_body_3
+    - joint_body_4
+    - joint_body_5
+    - joint_body_6
+    - joint_body_7
+    - joint_leg_tibia_0_L_0
+    - joint_leg_tibia_0_R_0
+    - joint_leg_tibia_1_L_0
+    - joint_leg_tibia_1_R_0
+    contacts:
+    - link_body_0
+    - link_body_1
+    - link_body_2
+    - link_body_3
+    - link_body_4
+    - link_body_5
+    - link_body_6
+    - link_body_7
+    - link_body_8
+    - tail
+    - link_leg_tibia_0_L_0
+    - link_leg_tibia_0_R_0
+    - link_leg_tibia_1_L_0
+    - link_leg_tibia_1_R_0
+    xfrc:
+    - link_body_0
+    - link_body_1
+    - link_body_2
+    - link_body_3
+    - link_body_4
+    - link_body_5
+    - link_body_6
+    - link_body_7
+    - link_body_8
+    - tail
+    - link_leg_femur_0_L_0
+    - link_leg_tibia_0_L_0
+    - link_leg_femur_0_R_0
+    - link_leg_tibia_0_R_0
+    - link_leg_femur_1_L_0
+    - link_leg_tibia_1_L_0
+    - link_leg_femur_1_R_0
+    - link_leg_tibia_1_R_0
+  motors:
+  - joint_name: joint_body_0
+    control_types:
+    - position
+    limits_torque:
+    - -10
+    - 10
+  - joint_name: joint_body_1
+    control_types:
+    - position
+    limits_torque:
+    - -10
+    - 10
+  - joint_name: joint_body_2
+    control_types:
+    - position
+    limits_torque:
+    - -10
+    - 10
+  - joint_name: joint_body_3
+    control_types:
+    - position
+    limits_torque:
+    - -10
+    - 10
+  - joint_name: joint_body_4
+    control_types:
+    - position
+    limits_torque:
+    - -10
+    - 10
+  - joint_name: joint_body_5
+    control_types:
+    - position
+    limits_torque:
+    - -10
+    - 10
+  - joint_name: joint_body_6
+    control_types:
+    - position
+    limits_torque:
+    - -10
+    - 10
+  - joint_name: joint_body_7
+    control_types:
+    - position
+    limits_torque:
+    - -10
+    - 10
+  - joint_name: joint_leg_tibia_0_L_0
+    control_types:
+    - position
+    limits_torque:
+    - -10
+    - 10
+  - joint_name: joint_leg_tibia_0_R_0
+    control_types:
+    - position
+    limits_torque:
+    - -10
+    - 10
+  - joint_name: joint_leg_tibia_1_L_0
+    control_types:
+    - position
+    limits_torque:
+    - -10
+    - 10
+  - joint_name: joint_leg_tibia_1_R_0
+    control_types:
+    - position
+    limits_torque:
+    - -10
+    - 10
+name: Animat
+physics:
+  drag: true
+  sph: false
+  buoyancy: true
+  viscosity: 1.0
+  water_height: 0.0
+  water_density: 1000.0
+  water_velocity:
+  - 0.0
+  - 0.0
+  - 0.0
+  water_maps: []
+mujoco:
+  damping: 0.1
+  act_pos_gain: 0.5
+  act_vel_gain: 0
+  solref:
+  - -2000.0
+  - -100.0
