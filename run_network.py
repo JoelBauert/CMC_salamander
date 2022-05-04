@@ -151,7 +151,7 @@ def run_network(duration, update=False, drive=0, coupled=True):
 def main(plot):
     """Main"""
     drive_ = 0.5 #initial drive (or constant drive matrix if update=False)
-    run_network(duration=40, update=True, drive=drive_, coupled=False)
+    run_network(duration=40, update=True, drive=drive_, coupled=True)
 
     # Show plots
     if plot:
